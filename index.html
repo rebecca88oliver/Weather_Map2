@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Sizes the page to device width-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <!--Adds Boostrap 4-->
+            <!-- Latest compiled and minified CSS -->
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    
+            <!-- jQuery library -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+            <!-- Popper JS -->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    
+            <!-- Latest compiled JavaScript -->
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- End boostrap 4 links-->
+
+
+    <!-- Link to style sheet-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--Link to Nes.css-->
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <link href="https://unpkg.com/nes.css/css/nes.css" rel="stylesheet" />
+
+    
+<!--Adds Boostrap 4-->
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <!-- Popper JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+<!-- End boostrap 4 links-->
+
+
+    <!-- Link to Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+<!-- NOTE: javascript linked in footer for faster loading-->
+
+
+
+
+</head>
+<body>
+    <div id="page">
+        <div id="header" class="site-header">
+            <div class="wrap">
+ 
+                <div id="branding" role="banner">
+                    <p class="site-title"><a href="http://example.com">WEATHER DASHBOARD</a></p>
+                    <p class="site-description">Check the weather of any city.</p>
+                </div><!--#branding-->
+ 
+            </div><!--.wrap-->
+        </div><!--#header-->
+ 
+        <div id="main">
+            <div class="wrap">
+ 
+                <div id="primary">
+                    <div id="content" role="main">
+                      
+
+                        
+            <div class="row" id="main_row">
+
+                <div class="col" id=search_panel>
+
+                    <h3>Search By City:</h3>
+
+                    <div class="form-group" id="input_panel"> 
+                        <input class="inputsm" id="input" type="text" placeholder="Type your city here"/>
+                        <button type="button" class="btn nes-btn is-primary" id="btnInsert"> Submit <i class="fas fa-search-location fa-2x"></i></button>
+                    </div>
+                    
+                    <ul class="previous_cities nes-list is-circle" id="listOutPut"> </ul>
+                    
+                </div>
+            </div>
+            
+            <!-- Second Row -->
+            <div class="row" id="info_row">
+                <div class="col nes-container is-rounded" id="output_panel">
+
+                    <div class="day_forecast container-fluid" id="current">
+                        <div class="card" id="item1">
+                        </div>
+                        <div class="card" id="item2">
+                        </div>
+                        <div class="card" id="item3"></div>
+                        <div class="card" id="item4"></div>
+                        <div class="card" id="item5"></div>
+                    </div>
+            
+                    <div class="row title2">
+                    </div>   
+                    
+                    <div class="five_forecast" id="extended"></div>
+
+                </div>
+
+            </div>
+                
+                
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+                    </div><!-- #content -->
+                </div><!-- #primary -->
+ 
+            </div><!--.wrap-->
+        </div><!--#main-->
+ 
+        <div id="footer" class="site-footer">
+            <div class="wrap">
+ 
+                <p class="site-credits">Made by Rebecca Oliver <br>
+                    <i class="nes-icon github is-large"></i>
+
+                    <i class="nes-icon linkedin is-large"></i>
+
+                </p>
+ 
+            </div><!--.wrap-->
+        </div><!--#footer-->
+ 
+    </div><!--#page-->
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    
+    <!-- Link to Javascript file-->
+    <script src="script.js"></script>
+</body>
+
+</html>

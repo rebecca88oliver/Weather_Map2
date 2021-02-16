@@ -1,0 +1,58 @@
+/* =Reset
+-------------------------------------------------------------- */
+ 
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-top: 0;
+}
+ 
+html,
+body,
+div{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* =Color
+-------------------------------------------------------------- */
+ 
+#header{
+    background: #cccccc;
+    background: linear-gradient(to right, #c7e9ff, #b3c7cc);
+}
+ 
+#main{
+    background: #dddddd;    
+    background: linear-gradient(to right, #c7e9ff, #b3c7cc);
+}
+
+/* =Structures
+-------------------------------------------------------------- */
+ 
+.wrap{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1em;
+    font-family: 'Press Start 2P', cursive;
+}
+ 
+#primary{
+    max-width: 650px;
+    margin: 0 auto;
+    font-family: 'Press Start 2P', cursive;
+}
+
+#input_panel{
+    background-color: transparent;
+}
+
+.h2{
+font-size: 1rem;
+}
+
+#item1, #item2, #item3, #item4, #item5{
+    background-color: transparent;
+}
